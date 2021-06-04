@@ -112,7 +112,11 @@ h1{
 	margin:50px auto;
 }
 .container h1{
+<<<<<<< HEAD
    color:blue;
+=======
+	color:blue;
+>>>>>>> e22370d590acf971972658d93006a05f9c8a9735
 }
 .contact-box{
 	background:gray;
