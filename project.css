@@ -7,7 +7,7 @@
 }
 body{
 	font-family:open sans, sans-sarif;
-	background-color:#33FFD7;
+	background-color:#fff;
 	background-position: center;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -80,6 +80,10 @@ h1{
 	background-color: white;
 	
 }
+.main1 p{
+	font-weight: bold;
+	font-size: 18px;
+}
 .image{
 	width:50%;
 	padding:0;
@@ -92,9 +96,6 @@ h1{
 .image a{
 	text-align: center;
 }
-.ok{
-	clear: both;
-}
 .footer{
 	background-color: brown;
 	display: flex;
@@ -106,17 +107,16 @@ h1{
 .footer h3{
 	padding-left: 300px;
 }
+.boy{
+	background-color: #edf1fe;
+}
 
 .container{
 	width: 80%;
 	margin:50px auto;
 }
 .container h1{
-<<<<<<< HEAD
    color:blue;
-=======
-	color:blue;
->>>>>>> e22370d590acf971972658d93006a05f9c8a9735
 }
 .contact-box{
 	background:gray;
@@ -132,10 +132,10 @@ h1{
 	color:#fff;
 	background: violet;
 }
-.header{
+.container h1{
 	margin-bottom: 10px;
 	font-weight: bold;
-	text-shadow: 30px;
+	text-shadow: 1px 1px ;
 }
 .container h3{
 	margin-bottom: 40px;
@@ -148,6 +148,9 @@ h1{
 }
 .input-row .input-group{
 	flex-basis:45%;
+}
+form{
+	background-color: gray;
 }
 input{
 	width: 100%;
@@ -184,8 +187,132 @@ button{
 	margin-bottom: 30px;
 }
 .contact-right h3{
-	font-weight: 600px;
+	font-weight: bold;
 	margin-bottom: 30px;
+}
+.grid-container{
+	display: grid;
+	grid-gap: 10px;
+	padding:10px; 
+	background-color: #edf1fe;
+}
+.grid-container div{
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.table1{
+	grid-column: 1/7; 
+}
+.table1 h1{
+	color:purple;
+	font-size:55px;
+}
+.table2{
+	height: 1000px;
+	width: 350px;
+	margin-right: -105px;
+	background-color: blue;
+}
+.table2 img{
+	margin-right: 90px;
+	border-radius: 100rem;
+	width: 100px;
+	height: 150px;
+}
+.table2 h4{
+	margin-right: 80px;
+	font-size: 30PX;
+	color: GOLD;
+}
+.table2 h6{
+	margin-right: 80px;
+	margin-top: -30px;
+    border-bottom: 3px solid rgba(255,255,255,0.2);
+    color:#fff;
+}
+.table2 h5{
+    margin-right: 200px;
+    font-size: 18px;
+    margin-top: 20px;
+    color:#fff;
+     border-bottom: 3px solid rgba(255,255,255,0.2);
+}
+.table2 p{
+
+	text-align: left;
+	font-size: 20px;
+	margin-left: 20px;
+	color:#fff;
+}
+.table3{
+	background-color: white;
+	width:700px;
+	margin-right: -195px;
+}
+.table3 h5{
+	text-align: left;
+	margin-left: 20px;
+}
+.table3 p{
+	text-align: left;
+	margin-left: 20px;
+	font-size: 18px;
+}
+.grid-container-protfolio{
+	display: grid;
+	grid-gap: 10px;
+	background-color: white;
+	height:550px;
+	display: flex;
+}
+.table4{
+	width:40%;
+}
+.table4 img{
+	border-radius: 200px;
+	height: 550px;
+	width: 100%;
+}
+.table5{
+	padding-top: 150PX;
+	width: 60%;
+}
+.table5 h4{
+	color: purple;
+	margin-left: 10px;
+}
+.table5 p{
+	margin-left: 10px;
+}
+.table5 h2{
+	margin-left: 10px;
+}
+.table5 a{
+
+	background-color: green;
+	border-radius: 10px;
+	padding-bottom: 10px;
+}
+.footers{
+	background-color: brown;
+	display: flex;
+	padding-top: 10px;
+	height: 50px;
+	width: 100%;
+}
+.footers h3{
+	padding-left: 300px;
+}
+.footerss{
+	background-color: brown;
+	display: flex;
+	padding-top: 10px;
+	height: 50px;
+	width: 100%;
+}
+.footerss h3{
+	padding-left: 300px;
 }
 @media(max-width: 900px){
 	.checkbtn{
@@ -240,5 +367,102 @@ button{
     .contact-box{
     	display:inline-block;
     	width: 100%;
+    }
+    .grid-container{
+    	display: block;
+    	margin-right: 20px;
+    	width: 100%;
+    }
+    .table2{
+    	width: 100%;
+    }
+    .table2 h4{
+    	margin-left: 70px;
+    }
+    .table2 img{
+    	margin-left: 70px;
+    }
+    .table2 h5{
+    	margin-left: 70px;
+    }
+    .table2 p{
+    	margin-left: 70px;
+    }
+    .table2 h6{
+    	margin-left: 70px;
+    }
+    .table1{
+    	width: 100%;
+    }
+    .table1 h1{
+    	font-size: 40px;
+    }
+    .table3{
+    	height: 1000px;
+    	width:100%;
+    }
+    .grid-container-protfolio{
+        	display:block;
+    }
+    .table5{
+    	background-color: white;
+    	width: 100%;
+    	padding-top: 90px;
+    }
+    .table5 p{
+    	margin-left: 10px;
+    	margin-right: 10px;
+    	height: auto;
+    }
+    .table4{
+    	width: 100%;
+    	height: auto;
+    	background-color: white;
+    	height: 500px;
+
+    }
+    .table4 img{
+    	background-color: white;
+    	width:350px;
+    	height: 350px;
+    	margin-left: 20px;
+    	padding: 50px;
+    }
+    .footers{
+    	width: 100%;
+    	height: auto;
+    }
+    .footers h3{
+    	padding-left: 80px;
+    }
+    .footerss{
+    	width: 100%;
+    	height: auto;
+    	margin-top: 450px;
+    }
+    .footerss h3{
+    	padding-left: 80px;
+    }
+}
+@media(max-width: 380px){
+	.table2 p{
+    	margin-left: 10px;
+    }
+    .table2 h5{
+    	margin-right:100px;
+    }
+   .table3 {
+   	height: 1300px;
+   }
+   .table2{
+   	height: 1100px;
+   }
+   .table4 img{
+    	background-color: white;
+    	width:250px;
+    	height: 250px;
+    	margin-left: 20px;
+    	margin-bottom: -90px;
+    	border-radius: 100px;
     }
 }
